@@ -1,0 +1,450 @@
+/*导航栏部分开始*/
+    
+    
+    .w{
+    	width: 1000px;
+    	margin: 0 auto;
+
+    }
+    .top{
+        width: 100%;
+        height: 60px;
+        background-color: #191D3A;
+    }
+    .logo{
+        float: left;
+        width: 161px;
+        height: 35px;
+        margin-right: 50px;
+    }
+    .logo>img{
+    	width: 161px;
+    	height: 35px;
+    	margin-top: 10px;
+    }
+    .topdb{
+        float: left;
+        width: 520px;
+        height: 50px;
+        /*margin: 0 auto;*/
+    }
+    
+    /*首页博雅游戏*/
+    .topdb>ul>li{
+       
+        float: left;
+        width: 85px;
+        height: 60px;
+        line-height: 60px;
+        color: #818394;
+        border-right:1px solid #252947;
+        text-align:center;
+        background-color: #191D3A;
+        font-size: 14px;
+        cursor: pointer;
+
+    }
+    /*加入我们*/
+    .li1{
+        float: left;
+        width: 100px;
+        height: 34px;
+        /*padding: 20px;*/
+        text-align: center;
+        line-height: 34px;
+        margin-top: 12px;
+        color: #fff;
+        background-color: #38B774;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-left: 10px;
+        /*font-weight: bold;*/
+        font-size: 15px;
+    }
+    .li1:hover{
+        background-color: #2BA364;
+    }
+    .topdb>ul>li:hover{
+        color: #fff;
+        background-color: #252947;
+    }
+    .zhongying{
+        float: right;
+        width: 100px;
+        height: 60px;
+        line-height: 60px;
+
+    }
+    .zhongying>div{
+        width: 100px;
+        height: 50px;
+
+        /*margin:0 auto;*/
+    }
+    .a1{
+        list-style: none;
+        color: #259974;
+        margin-right: 10px;
+        margin-left: 30px;
+    }
+    .a2{
+     color: #b0b0b04f;
+    }
+    .a2:hover{
+        color: #259974;
+    }
+
+    /*开始斗地主css/////////////////////*/
+    /*斗地主背景*/
+    .tu{
+        widows: 100%;
+        height: 450px;
+        background-image: url(../images/probanner4.jpg);
+        background-position: center;
+
+    }
+    /*上浮椭圆*/
+    /*.toptu{
+        width: 100% ;
+        height: 80px;
+        background-color: blue;
+        position: relative;
+        top:10px;
+    }*/
+    .tu1{
+          /*position: absolute;*/
+          float: right;
+          width: 117px;
+          
+          background-image: url(../images/online.png);
+          /*background-position: center;*/
+          /*background-size: cover;*/
+          /*line-height: 34px;*/
+          /*height: 20px;*/
+          margin-top: 65px;
+
+          border-radius: 20px;
+          text-align: center;
+          cursor: pointer;
+          /*top:133px;*/
+          /*right:178px;*/
+           /*padding-left: 30px;*/
+           padding-bottom:12px;
+           padding-top: 7px;
+          background-color: #fff;
+          overflow: hidden;
+          transition: all 0.1s;
+    }
+   
+    
+    .tu11{
+        padding-bottom: 31px;
+        display: none;
+        width: 100px;
+
+    }
+    
+    .tu1:hover div{
+         
+        display: block;
+         border-radius: 40px 40px  0px   0px;
+    }
+    
+    .tu2{
+
+        width: 500px;
+        height: 200px;
+        /*float: right;*/
+        /*background-color: green;*/
+        padding-top: 160px;
+        padding-left: 540px;
+
+        /*margin-top: 160px;*/
+    }
+    .zi{
+        font-size: 14px;
+        color: #000;
+        padding-bottom: 40px;
+
+    }
+    /*下载*/
+    .xiazai{
+        width: 400px;
+        height: 40px;
+    }
+    .xiazai1{
+        width: 16px;
+        height: 20px;
+        /*display: inline-block;*/
+        float: left;
+        background-image: url(../images/download.png);
+    }
+    .xiazai2{
+        width: 200px;
+        height: 20px;
+        /*height: */
+        font-size: 16px;
+        font-weight: bold;
+        color: #000;
+        float: left;
+    }
+    /*各种图标*/
+    .box1{
+        width: 372px;
+        height: 110px;
+        background-color:#ffffffab;
+        float: left;
+         border-radius: 5px 0px 0px 5px;
+
+    }
+    
+    .box1>ol>li{
+      float: left;
+      width: 91px;
+      height: 110px;
+      /*padding-left: 25px;*/
+      list-style: none;
+      border-right:2px solid #25294733;
+      cursor: pointer;
+      margin:0 auto;
+      background-image: url(../images/pad.png);
+      font-size: 20px;
+      text-align: center;
+       border-radius: 5px 0px 0px 5px;
+      
+
+    }
+    .box1>ol>li:nth-child(1){
+      background-position: 15px -194px;
+    }
+    .box1>ol>li:nth-child(2){
+      background-position: 16px 6px;
+    }
+    .box1>ol>li:nth-child(3){
+      background-position: 11px -93px;
+    }
+    .box1>ol>li:nth-child(4){
+      background-position: 11px -494px;
+    }
+    .box1>ol>li:hover{
+        background-color: #fff;
+    }
+    
+    .box1y{
+        float: left;
+        width: 90px;
+        height: 95px;
+        padding-left: 10px;
+        padding-top: 15px;
+        background-color: #ffffffab;
+         border-radius: 0px 5px 5px 0px;
+    }
+    .box1p{
+        margin-top: 70px;
+    }
+    /*开始四个小图的*/
+    .zhong{
+        width: 1000px;
+        height: 210px;
+        margin-top: 50px;
+        /*background-color: red;*/
+        clear: 0 auto;
+    }
+    .zhong1 p{
+        color: #38B774;
+        font-size: 12px;
+    }
+    .zhong1{
+        float: left;
+        width: 230px;
+        height: 130px;
+        /*background-color: #38B774;*/
+        margin:0px 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        cursor: pointer;
+       /*transition: all 1s;*/
+    }
+      /*.p12{
+        color: #38B774;
+        font-size: 12px;
+      }*/
+    .zhong1:hover{
+        height: 200px;
+        overflow: hidden;
+        color: #fff;
+        
+        background-color: #38B774;
+    }
+    .zhong1:hover p{
+        color: #fff;
+        /*transition: all 1s;       */
+    }
+    /*开始做横线和园*/
+    .yuan{
+        width:1000px;
+        height:20px;
+        margin-bottom: 20px;
+        /*padding-top: 5px;*/
+        /*background-color: blue;*/
+    }
+    
+    .divyuan{
+        background-color:#38B774 ;
+        float: left;
+        height: 12px;
+        width: 12px;
+        border-radius:6px;
+        margin: 5px  10px;
+        cursor: pointer;
+    }
+    .xian{
+       float: left;
+       margin-top: 9px;
+        width: 460px;
+        height: 1px;
+        background-color: #b0b0b096;
+    }
+    .xiazong{
+        width: 1000px;
+        height: 390px;
+        /*background-color: red;*/
+    }
+    .xiaz{
+        float: left;
+        width: 500px;
+        height: 311px;
+        /*background-color: blue;*/
+        background-image: url(../images/bynewsbg.jpg);
+        background-size: cover;
+        /*padding-top: 20px;*/
+        /*background-position: center;*/
+        /*margin-right: 20px;*/
+
+    }
+    .xiazf{
+        color: #70CE9C;
+        width: 80px;
+        height: 30px;
+        border: 1PX solid#70CE9C;
+        text-align: center;
+        border-radius: 5px;
+        /*变小手*/
+        cursor: pointer;
+        margin-top: 46px;
+        margin-left: 230px;
+        margin-bottom: 30px;
+        
+    }
+    .xiazf:hover{
+        color: #fff;
+        /*border: 1PX solid#fff;*/
+        background-color: #70CE9C;
+    }
+
+    .xiayf{
+        color: #fff;
+        width: 80px;
+        height: 30px;
+        border: 1PX solid#fff;
+        text-align: center;
+        border-radius: 5px;
+        /*变小手*/
+        cursor: pointer;
+        margin-top: 29px;
+        margin-left: 200px;
+        margin-bottom: 30px;
+    }
+     .xiayf:hover{
+        color: #70CE9C;
+        background-color: #fff;
+
+      }
+      .xinyzhao{
+        float: left;
+        width: 135px;
+        height: 40px;
+        padding-top: 23px;
+        padding-left: 67px;
+
+        /*background-color: red;*/
+
+      }
+    .xinyzhao>p{
+       font-size: 28px;
+       color: #fff;
+    }
+    .xiazs>ul>li{
+        width: 480px;
+        height: 50px;
+        text-align: right;
+        line-height: 50px;
+        color: #b0b0b0;
+        font-size: 13px;
+        /*padding-bottom: 10px;*/
+        border-bottom: 1px solid #b0b0b0;
+        cursor: pointer;
+    }
+        ul>li>a{
+          float: left;
+          color:#000000c2 ;
+        }
+
+    
+     .xiay{
+        float:left;
+        width: 500px;
+        height: 311px;
+        background-image: url(../images/byhrbg3.jpg);
+        background-size: cover;
+        background-position: center;
+        /*padding-top: 20px;*/
+     }
+     .xiays>ul>li{
+        width: 321px;
+        height: 47px;
+        text-align: left;
+        line-height: 47px;
+        font-size: 14px;
+        color: #fff;
+        border-bottom: 1px solid #70ce9c;
+        cursor: pointer;
+        margin-left: 15px;
+     }
+     .xiazs>ul>li>a:hover{
+        color: #33B972;
+     }
+     .dibuh{
+        width: 100%;
+        height: 190px;
+        background-color:  #191D3A;
+     }
+     .db1{
+        height: 100px;
+        width: 1000px;
+        line-height: 100px;
+
+     }
+     .db1>ol>li{
+        float: left;
+        list-style: none;
+        font-size: 14px;
+        color:  #6C6E7E;
+        
+        padding-right:  10px;
+        /*padding-top: 50px;*/
+     }
+
+    .gotop{
+    position: fixed;
+    right: 15px;
+    bottom: 75px;
+    width: 68px;
+    height: 29px;
+    background: url(../images/top.png) no-repeat 0 -40px;
+    cursor: pointer;
+    z-index: 999;
+    }
+    .gotop:hover{
+        background-position: 0px 0px;
+    }
